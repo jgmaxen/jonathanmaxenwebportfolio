@@ -1,0 +1,73 @@
+/* 🎨 60s Retro Colors */
+:root {
+  --primary: #E4572E;  /* Burnt Orange */
+  --secondary: #2A9D8F; /* Teal */
+  --background: #F4EDE4; /* Cream */
+  --accent: #F4A261; /* Mustard Yellow */
+  --dark: #7A306C; /* Psychedelic Purple */
+}
+
+/* 🏡 General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+  color: var(--dark);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* 🏵️ Vintage Headers */
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primary);
+}
+
+/* 🌈 Retro Button Styles */
+.btn-pill {
+  border-radius: 50px !important;
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent);
+  transform: scale(1.05);
+}
+
+.btn-outline-secondary {
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+/* 🌸 Funky Box Shadows */
+.card {
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* 🎞️ Image Styling */
+img {
+  filter: sepia(20%) contrast(110%) brightness(90%);
+}
