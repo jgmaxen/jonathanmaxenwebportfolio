@@ -1,38 +1,60 @@
-# Welcome to React Router!
+# React Portfolio
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Description
+This is my personal portfolio website built with React. The portfolio showcases the projects I have developed, along with an "About Me" section and my resume. The website is designed to provide an overview of my skills, experience, and accomplishments in web development.
 
 ## Features
+- **Navigation Bar:** Allows easy access to different sections of the portfolio.
+- **About Me Section:** A brief introduction about my background and skills.
+- **Portfolio Section:** Displays six of my projects with links to deployed applications and GitHub repositories.
+- **Contact Form:** Enables visitors to reach out to me with validation for required fields.
+- **Resume Section:** Contains a downloadable version of my resume.
+- **Footer:** Includes links to my professional profiles.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Technologies Used
+- React
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Tailwind CSS
+- Render (for deployment)
 
-## Getting Started
+## Installation
+To run the portfolio locally, follow these steps:
 
-### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/jgmaxen/react-portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd react-portfolio
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-Install the dependencies:
+## Deployment
+The portfolio is deployed to **Render**. You can view the live version [here](https://jonathanmaxenwebportfolio.onrender.com/).
 
-```bash
-npm install
-```
+## Future Enhancements
+- Improve accessibility features.
+- Add animations for a more interactive user experience.
+- Implement a dark mode toggle.
 
-### Development
+## Contact
+If you'd like to connect or collaborate, feel free to reach out through my contact form or via my GitHub profile.
 
-Start the development server with HMR:
+---
 
-```bash
-npm run dev
-```
+**Author:** Jonathan Maxen  
+**GitHub:** [jgmaxen](https://github.com/jgmaxen)
 
-Your application will be available at `http://localhost:5173`.
+
 
 ## Building for Production
 
